@@ -2,6 +2,8 @@
 
 # My personal website
 
+Hosted @ https://jacobmott.io
+
 ![image](https://user-images.githubusercontent.com/3318539/193406741-9a3334c8-9d58-4279-9849-64c70492d0d5.png)
 
 ## Features
