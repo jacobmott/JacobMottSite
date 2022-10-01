@@ -1,16 +1,21 @@
 
 
-My personal website
-
-
+# My personal website
 
 ![image](https://user-images.githubusercontent.com/3318539/193406741-9a3334c8-9d58-4279-9849-64c70492d0d5.png)
 
+## Features
+
+babylon.js 3d engine section (Eventually will display my 3d models im creating)
+
+angular carousel, currently showing a one of my repositories images from its readme (Im scraping data from github APIs to get these images)
+
+Calling my API backend in aws that talks to github and returns info about my repos to view in the carousel
 
 
 
 
-
+# Boilerplate readme stuff below
 
 
 # AngularBootstrapCarousel
