@@ -23,7 +23,8 @@
       "dom"
     ],
     "types": [
-     "babylonjs"
+     "babylonjs",
+     "babylonjs-materials",
     ]
   },
   "angularCompilerOptions": {

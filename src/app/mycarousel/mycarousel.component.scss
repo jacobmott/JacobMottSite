@@ -1,1 +1,48 @@
-@import '../scss/my.scss'
+@import '../scss/my.scss';
+
+
+::ng-deep .carousel-control-prev-icon {
+    background-image: url('https://apufpel.com.br/assets/img/seta_prim.png') !important;
+    background-color: rgba(206, 1, 1, 0.897);
+}
+
+::ng-deep .carousel-control-next-icon {
+    background-image: url('https://apufpel.com.br/assets/img/seta_ult.png') !important;
+    background-color: rgba(206, 1, 1, 0.897);
+}
+
+::ng-deep .carousel-indicators li {
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50% !important;
+    background-color: red;
+}
+
+::ng-deep .carousel-indicators li {
+    width: 20px !important;
+    background-color: black;
+    height: 20px !important;
+    border-radius: 50% !important
+}
+
+::ng-deep .carousel-indicators .active {
+    width: 20px !important;
+    background-color: yellow;
+    height: 20px !important;
+    border-radius: 50% !important
+}
+
+
+ngb-carousel .wrapper {
+    position: relative;
+    height: 0;
+    padding-top: 55%; /* Keep ratio for 900x500 images */
+  }
+  
+  ngb-carousel .wrapper>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }

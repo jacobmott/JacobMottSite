@@ -11,12 +11,17 @@ import {
 } from 'jacob-mott-site';
 //import { environment } from '../environments/environment';
 
+import {MatListModule} from '@angular/material/list'; 
 
+
+import { NgScrollbarModule } from 'ngx-scrollbar';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { MycarouselComponent } from './mycarousel/mycarousel.component';
 import { My3dComponent } from './my3d/my3d.component';
+import { MylistComponent } from './mylist/mylist.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 //import { GithubService } from './github.service';
 //import { DefaultService } from 'jacob-mott-site'
 
@@ -32,7 +37,8 @@ export function apiConfigFactory(): Configuration {
   declarations: [
     AppComponent,
     MycarouselComponent,
-    My3dComponent
+    My3dComponent,
+    MylistComponent
   ],
   imports: [
     BrowserModule,
@@ -41,7 +47,10 @@ export function apiConfigFactory(): Configuration {
     ApiModule.forRoot(apiConfigFactory),
     // make sure to import the HttpClientModule in the AppModule only,
     // see https://github.com/angular/angular/issues/20575
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatListModule,
+    NgScrollbarModule
   ],
   providers: [
     //GithubService,

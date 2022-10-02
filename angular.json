@@ -25,9 +25,25 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets/favicon.png",
+              "src/assets/githubicon.png",
+              "src/assets/models/basefemale.glb",
+              "src/assets/models/GreenDragon2.9.glb",
+              "src/assets/models/fire.glb",
+              "src/assets/models/fire2.glb",
+              "src/assets/models/RedDragon2021.glb",              
+              "src/assets/textures/skybox/skybox_nx.jpg",
+              "src/assets/textures/skybox/skybox_ny.jpg",
+              "src/assets/textures/skybox/skybox_nz.jpg",
+              "src/assets/textures/skybox/skybox_px.jpg",
+              "src/assets/textures/skybox/skybox_py.jpg",
+              "src/assets/textures/skybox/skybox_pz.jpg",
+              "src/assets/textures/fire.png",
+              "src/assets/textures/distortion.png",
+              "src/assets/textures/candleopacity.png"                            
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.scss",
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
@@ -97,6 +113,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "src/styles.scss"
             ],
             "scripts": []

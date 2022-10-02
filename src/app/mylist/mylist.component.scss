@@ -1,0 +1,54 @@
+@import '../scss/my.scss';
+
+mat-list {
+    overflow-x: hidden;
+    word-wrap: break-word;
+    overflow-y: hidden;
+    width: auto;
+    height: auto;
+}
+
+
+
+
+.my-scrollbar {
+    --scrollbar-border-radius: 7px;
+    --scrollbar-padding: 4px;
+    --scrollbar-viewport-margin: 0;
+    --scrollbar-track-color: transparent;
+    --scrollbar-wrapper-color: transparent;
+    --scrollbar-thumb-color: rgba(206, 1, 1, 0.897);
+    --scrollbar-thumb-hover-color: var(--scrollbar-thumb-color);
+    --scrollbar-size: 10px;
+    --scrollbar-hover-size: var(--scrollbar-size);
+    --scrollbar-thumb-transition: height ease-out 150ms, width ease-out 150ms;
+    --scrollbar-track-transition: height ease-out 150ms, width ease-out 150ms;
+}
+
+
+.linkoraction2{
+    color: rgba(206, 1, 1, 0.897);
+    text-align: center;
+}
+
+
+mat-list-item:hover {
+    font-weight: bold;
+    background-color: #292929;
+}
+
+.currentSelection {
+    font-weight: bold;
+    color: rgba(206, 1, 1, 0.897);
+    background-color: #545454;
+    text-align: center;
+}
+
+
+.currentSelection2 {
+    font-weight: bold;
+    color: rgba(206, 1, 1, 0.897);
+    background-color: #969191;
+    text-align: center;
+}
+

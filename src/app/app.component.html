@@ -1,32 +1,86 @@
-<div class="container">
-  <div class="row col-sm-12">
+<div class="container-fluid">
+
+
+
+
+  <!-- 
+    Main Row -->
+  <div class="row">
+
+    <!-- 
+    Left -->
+    <div class="col-sm-2">
+      <div class="col-sm-12">
+        <app-mylist></app-mylist>
+      </div>
+    </div>
+
+    <!-- 
+    Center -->
+    <div class="col-sm-5">
+
+      <div class="col-sm-12">
+        <p class="purple">Images from this repo</p>
+      </div>
+
+      <div class="col-sm-12">
+        <app-mycarousel></app-mycarousel>
+      </div>
+
+      <div class="col-sm-12">
+        <p class="purple">3d assets from this repo</p>
+      </div>
+
+      <div class="col-sm-12">
+        <app-my3d meshName='basefemale.glb' [camZPos]=-10 [makeFire]="false" [makeRain]="true"></app-my3d>
+      </div>
+
+    </div>
+
+    <!-- 
+    Right -->
+    <div class="col-sm-5">
+      <div class="col-sm-12">
+        <p class="purple">Site Admin</p>
+      </div>
+      <div class="col-sm-12">
+        <p></p>
+        <app-my3d meshName='GreenDragon2.9.glb' [camZPos]=-30 [camYPos]=10 [makeFire]="true" [makeRain]="false">
+        </app-my3d>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="continer">
+  <div class="row mybackcolor2">
     <div class="col-sm-12">
+      <p></p>
+      <p></p>
       <p></p>
     </div>
   </div>
-  <div class="row col-sm-12">
-    <div class="col-sm-12">
-      <app-mycarousel></app-mycarousel>
-    </div>
-  </div>
-  <div class="row col-sm-12">
-    <div class="col-sm-12">
-      <p></p>
-    </div>
-  </div>
-  <div class="row col-sm-12">
-    <div class="col-sm-12">
-      <app-my3d></app-my3d>
-    </div>
-  </div>
 
-  <div class="row col-sm-12">
+  <div class="row mybackcolor">
     <div class="col-sm-12">
-      <p></p>
+      <div class="col-sm-12 purpleTitle">
+        <span class="purpleTitle">JacobMott.io</span>&nbsp;
+        <a class="linkoraction" href="https://www.linkedin.com/in/jacobmott/" target="_blank">My LinkedIn</a>&nbsp;
+        <a class="linkoraction" href="https://github.com/jacobmott" target="_blank">My Github</a>&nbsp;
+        <span class="purple">This page uses custom APIs to pull in data from my github account/repos</span>
+      </div>
     </div>
   </div>
-
-
 </div>
 
 
